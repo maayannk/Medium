@@ -1,5 +1,6 @@
 # prod
 dist/
+README.md
 
 # dev
 .yarn/
