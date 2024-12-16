@@ -9,8 +9,8 @@ const app = new Hono<{
   }
 }>()
 
-app.route('/api/v1/user/',userrouter)
-app.route('/api/v1/blog/',blogrouter)
+app.route('/api/v1/user',userrouter)
+app.route('/api/v1/blog',blogrouter)
 
 
 export default app
